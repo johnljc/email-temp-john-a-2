@@ -1,0 +1,61 @@
+html,body{
+    height: 100%;
+    margin: 0%;
+}
+
+.row{
+    display: flex;
+    height: 100vh;
+}
+/*column 1 below */
+.user{
+  align-self: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.btn{margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.bi{
+    display: flex;
+    justify-content: right;
+}
+
+#col-1{text-align: center;
+     background-color: rgb(165, 151, 151);
+}
+   .nav-item{
+    font-style: italic;
+    font-size: larger;
+}
+/*column 2 below*/
+
+#col-2{
+    background-color: rgb(148, 146, 143);}
+
+.navbar{
+    padding-top: 0em;
+    margin-top: 25px;
+    
+}
+.form{
+
+}
+
+.card{
+    background-color: transparent;
+}
+/*column 3 below*/
+#col-3{
+    background-color: rgb(165, 151, 151);
+}
+span.email-actions{
+    float: right;
+    cursor: pointer;
+}
+svg.email-actions:hover{
+    color: teal;
+}
+
