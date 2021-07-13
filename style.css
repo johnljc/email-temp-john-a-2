@@ -58,4 +58,27 @@ span.email-actions{
 svg.email-actions:hover{
     color: teal;
 }
+.reply-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+#reply-box {
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+
+#exampleFormControlTextarea1 {
+    background-color: transparent;
+    border-style: none;
+    resize: none;
+    box-shadow: none;
+}
 
