@@ -26,7 +26,7 @@ html,body{
 #col-1{text-align: center;
      background-color: rgb(165, 151, 151);
 }
-   .nav-item{
+   .nav-item:hover{
     font-style: italic;
     font-size: larger;
 }
@@ -40,12 +40,10 @@ html,body{
     margin-top: 25px;
     
 }
-.form{
 
-}
-
-.card{
+.card:hover{
     background-color: transparent;
+    
 }
 /*column 3 below*/
 #col-3{
@@ -63,7 +61,7 @@ svg.email-actions:hover{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: fit-content;
+ 
 }
 #reply-box {
     background-color: whitesmoke;
@@ -79,5 +77,6 @@ svg.email-actions:hover{
     border-style: none;
     resize: none;
     box-shadow: none;
+   
 }
 
